@@ -1,0 +1,24 @@
+@CanchaFutbol_HostAddress = http://localhost:5268
+
+GET {{CanchaFutbol_HostAddress}}/api/horarios
+Accept: application/json
+
+###
+
+GET {{CanchaFutbol_HostAddress}}/api/horarios/1
+Accept: application/json
+
+###
+
+GET {{CanchaFutbol_HostAddress}}/api/horarios?tipoCancha=Fútbol%205&disponible=true&precioMaximo=100
+Accept: application/json
+
+###
+
+GET {{CanchaFutbol_HostAddress}}/api/promociones
+Accept: application/json
+
+###
+
+GET {{CanchaFutbol_HostAddress}}/api/servicios
+Accept: application/json
