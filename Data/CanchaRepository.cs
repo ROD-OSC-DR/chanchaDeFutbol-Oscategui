@@ -51,7 +51,7 @@ public sealed class CanchaRepository
                     esFutbolCinco ? "60 min" : "90 min",
                     disponible ? "Disponible" : "Reservado",
                     esFutbolCinco
-                        ? "Cancha sintética techada, ideal para partidos rápidos entre amigos."
+                        ? "Cancha sintética techada, ideal para partidos dinamicos entre amigos."
                         : "Espacio amplio de césped sintético para equipos y entrenamientos.",
                     imagen));
             }
